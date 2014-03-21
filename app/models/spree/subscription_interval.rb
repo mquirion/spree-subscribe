@@ -1,7 +1,7 @@
 require 'concerns/intervalable'
 
 class Spree::SubscriptionInterval < ActiveRecord::Base
-  attr_accessible :name
+  #attr_accessible :name
 
   include Intervalable
 
